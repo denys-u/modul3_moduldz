@@ -1,12 +1,13 @@
-﻿using System;
-
-namespace Modul3_moduldz
+﻿namespace Modul3_moduldz
 {
-    class Program
+    using System;
+
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var starter = new Starter();
+            starter.Run();
         }
     }
 }
