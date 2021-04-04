@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Modul3_moduldz.Services.Abstractions
+﻿namespace Modul3_moduldz.Services.Abstractions
 {
     using System;
     using System.Collections.Generic;
@@ -10,5 +6,6 @@ namespace Modul3_moduldz.Services.Abstractions
 
     public class LoggerService
     {
+        private readonly LoggerConfig _loggerConfig;
     }
 }

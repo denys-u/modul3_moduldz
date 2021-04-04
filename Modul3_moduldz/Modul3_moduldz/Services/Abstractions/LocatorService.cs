@@ -7,5 +7,8 @@
     public static class LocatorService
     {
         private static readonly LoggerService _loggerService = new LoggerService();
+
+        public static ILoggerService LoggerService => _loggerService;
+
     }
 }
