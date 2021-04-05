@@ -10,5 +10,6 @@
 
         public static ILoggerService LoggerService => _loggerService;
 
+        public IFileService FileService => new FileService();
     }
 }
